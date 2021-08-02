@@ -1,0 +1,115 @@
+Building Applications with React and Redux
+
+Topics
+
+    Course Outline
+    Who Is This Course For?
+    How Is This Different from the React and Flux Course?
+    Why Redux?
+
+Environment Build19 Topics
+
+    Intro
+    Open Initial Exercise Files
+    Visual Studio Code Intro
+    Prettier Intro
+    Configure Prettier
+    Review Initial Project Setup
+    Create Initial App Structure
+    Webpack: Core Config Settings
+    Webpack: Dev Server
+    Webpack: Plugins
+    Webpack: Loaders
+    Babel Intro
+    Configure Babel
+    Start Webpack via npm Script
+    Debugging and Sourcemaps
+    Handling EADDRINUSE Error
+    ESLint Intro
+    Configure ESLint
+    Summary
+
+React Component Approaches10 Topics
+
+    Intro
+    Four Ways to Create React Components
+    createClass Component
+    Class Component
+    Function Component
+    Arrow Function Component
+    Functional Component Benefits
+    When to Use Class vs. Function Components
+    Container vs. Presentation Components
+    Summary
+
+Initial App Structure9 Topics
+
+    Intro
+    Create Home Page
+    Create About Page
+    Configure App Entry Point
+    Create App Layout
+    Create Header
+    Create 404 Page
+    Create Course Page
+    Summary
+
+Intro to Redux7 Topics
+
+    Intro
+    Do I Need Redux?
+    When Is Redux Helpful?
+    Three Core Redux Principles
+    Flux vs. Redux
+    Redux Flow Overview
+    Summary
+
+Actions, Stores, and Reducers8 Topics
+
+    Intro
+    Actions
+    Store
+    What Is Immutability?
+    Why Immutability?
+    Handling Immutability
+    Reducers
+    Summary
+
+Connecting React to Redux7 Topics
+
+    Intro
+    Container vs. Presentational Components
+    React-Redux Introduction
+    mapStateToProps
+    mapDispatchToProps
+    A Chat with Redux
+    Summary
+
+Redux Flow15 Topics
+
+    Intro
+    Create Simple Add Course Form
+    Binding in Classes
+    Handle Submit
+    Create Course Action
+    Create Course Reducer and Root Reducer
+    Create Store
+    Instantiate Store and Provider
+    Connect Container Component
+    Step through Redux Flow and Try Redux DevTools
+    mapDispatchToProps: Manual Mapping
+    mapDispatchToProps: bindActionCreators
+    mapDispatchToProps: Object Form
+    Action Type Constants
+    Summary
+
+Async in Redux8 Topics
+
+    Intro
+    Why a Mock API?
+    Mock API Setup
+    Middleware and Async Library Options
+    Thunk Introduction
+    Remove Inline Manage Course Form
+    Add First Thunk
+    Handle Loading Courses in Reducer
