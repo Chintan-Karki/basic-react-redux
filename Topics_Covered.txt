@@ -1,9 +1,7 @@
 Building Applications with React and Redux
 
-Topics
+Topics Covered
 
-    Course Outline
-    Who Is This Course For?
     How Is This Different from the React and Flux Course?
     Why Redux?
 
@@ -85,7 +83,7 @@ Connecting React to Redux7 Topics
     A Chat with Redux
     Summary
 
-Redux Flow15 Topics
+Redux Flow Topics
 
     Intro
     Create Simple Add Course Form
@@ -103,7 +101,7 @@ Redux Flow15 Topics
     Action Type Constants
     Summary
 
-Async in Redux8 Topics
+Async in Redux Topics
 
     Intro
     Why a Mock API?
