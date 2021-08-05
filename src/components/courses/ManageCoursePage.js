@@ -5,6 +5,7 @@ import { loadAuthors } from "../../redux/actions/authorActions";
 import PropTypes from "prop-types";
 import CourseForm from "./CourseForm";
 import { newCourse } from "../../../tools/mockData";
+import Spinner from "../common/Spinner";
 
 function ManageCoursePage({
   courses,
@@ -51,9 +52,7 @@ function ManageCoursePage({
   }
 
   return authors.length == 0 || courses.length == 0 ? (
-    <>
-      <h1>Loading...</h1>
-    </>
+    <Spinner />
   ) : (
     <CourseForm
       course={course}
