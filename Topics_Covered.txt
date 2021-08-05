@@ -5,7 +5,7 @@ Topics Covered
     How Is This Different from the React and Flux Course?
     Why Redux?
 
-Environment Build19 Topics
+Environment Build Topics
 
     Intro
     Open Initial Exercise Files
@@ -27,7 +27,7 @@ Environment Build19 Topics
     Configure ESLint
     Summary
 
-React Component Approaches10 Topics
+React Component Approaches Topics
 
     Intro
     Four Ways to Create React Components
@@ -40,7 +40,7 @@ React Component Approaches10 Topics
     Container vs. Presentation Components
     Summary
 
-Initial App Structure9 Topics
+Initial App Structure Topics
 
     Intro
     Create Home Page
@@ -52,7 +52,7 @@ Initial App Structure9 Topics
     Create Course Page
     Summary
 
-Intro to Redux7 Topics
+Intro to Redux Topics
 
     Intro
     Do I Need Redux?
@@ -111,3 +111,44 @@ Async in Redux Topics
     Remove Inline Manage Course Form
     Add First Thunk
     Handle Loading Courses in Reducer
+    Dispatch Actions on Load
+    Create CourseList
+    Centralize Initial Redux State
+
+Async Writes in Redux
+
+    Implement Object Form of mapDispatchToProps
+    Configure Routing
+    Convert Class Component to Function Component with Hooks
+    Create Reusable Components
+    Implement Centralized Change Handler
+    Adding Thunk and Action Creators
+    Handle Creates and Updates in Reducer
+    Dispatch Create and Update
+    Redirect via React Router's Redirect Component
+    Redirect via React Router's History
+    Populate Form via mapStateToProps
+
+Async Status and Error Handling
+
+    Create Spinner Component
+    Create API Status Actions
+    Call Begin API in Thunks
+    Add Spinner to Course Pages
+    Add Form Submission Loading Indicator
+    Handle Server-side Validation and API Errors
+    Implement Client-side Validation
+    Optimistic Deletes1
+    Async/Await
+
+Async Status and Error Handling
+
+    Creating Loader/Spinner Component
+    Creating API Status Actions
+    Call Begin API in Thunks
+    Adding Spinners
+    Add Form Submission Loading Indicator
+    Handle Server-side Validation and API Errors
+    Implement Client-side Validation
+    Optimistic Deletes
+    Async/Await
