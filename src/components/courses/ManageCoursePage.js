@@ -17,6 +17,8 @@ function ManageCoursePage({
 }) {
   const [course, setCourse] = useState({ ...props.course });
   const [errors, setErrors] = useState({});
+  const [saving, setSaving] = useState(false);
+
   useEffect(() => {
     if (courses.length === 0) {
       loadCourses().catch((err) => {
@@ -42,18 +44,24 @@ function ManageCoursePage({
 
   function handleSave(event) {
     event.preventDefault();
+    setSaving(true);
     saveCourse(course).then(() => {
       history.push("/courses");
     });
   }
 
-  return (
+  return authors.length == 0 || courses.length == 0 ? (
+    <>
+      <h1>Loading...</h1>
+    </>
+  ) : (
     <CourseForm
       course={course}
       errors={errors}
       authors={authors}
       onChange={handleChange}
       onSave={handleSave}
+      saving={saving}
     />
   );
 }
