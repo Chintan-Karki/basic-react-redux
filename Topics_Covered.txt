@@ -1,9 +1,4 @@
-Building Applications with React and Redux
-
-Topics Covered
-
-    How Is This Different from the React and Flux Course?
-    Why Redux?
+Topics covered for Redux
 
 Environment Build Topics
 
